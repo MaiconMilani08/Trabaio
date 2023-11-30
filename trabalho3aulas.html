@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template(nome do seu site aqui)</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+</head>
+<body>
+    
+    <!--
+        Primeira parte do site, deixei um navbar pré-pronto do bootstrap
+
+    -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#">Features</a>
+                    <a class="nav-link" href="#">Pricing</a>
+                    <a class="nav-link disabled">Disabled</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!--Parte principal, deve ser chamativa.
+        Aqui usarei uma tag chamada section, ela é uma tag semantica, ou seja, apenas serve
+        para identificar ao navegador que aquele pedaço de codigo é uma seção-->
+
+    <section> <!-- < nesta abertura de tag de section voces podem usar o style para definir a cor de fundo -->
+        <div class="container"> <!--container para Delimitar ao quanto o site vai expandir-->
+            <div class="row d-flex justify-content-center align-items-center">
+
+                <div class="col-md-6 mt-5">
+                    <h1>SportsShirts</h1>
+                    <p>Uma loja de Sports de futebol, fundada em 2007 com intenção de alcançar o sucesso mundial com camisas de futebol, bolas personalizadas e etc.</p>
+
+                </div>
+
+                <div class="col-md-6">
+                <img src="logo-bola-png-3.png" alt="">
+                </div>
+                <!-- Inicializei o sistema de grid do Bootstrap com a div class="row"-->
+                <!-- dentro desta div voces devem determinar a quantidade de colunas que cada parte da linha vai ocupar,
+                    temos 12 colunas para trabalhar, sintaxe: div class="col-md-6"... -->
+            </div>
+        </div>
+    </section>
+
+    <!--Agora começam as partes que cada um decide sobre o que a seção vai ser-->
+    <!--Exemplo, parte da Landing Page contendo o Sobre Nós-->
+
+    <section>
+        <div class="container">
+            <h2 class="text-center">Sobre Nós</h2>
+
+            <!--Utilizem sempre o sistema de grid do bootstrap-->
+
+                <div class="row mt-5">
+                    <div class="col-md-6">
+                        <p>A empresa tal é referencia no comercio tal desde 2023...</p>
+
+                        <ul>
+                            <li>Competencia no ramo</li>
+                            <li>Sempre dispostos a te ajudar</li>
+
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <p>Nascido no ano de 2023 a SportsShirts tem como objetivo alcançar o sucesso mundial com seus equipamentos de alta qualidade. Fundada por Thomas Turbano, nascido em xique xique bahia, no ano de 1999. Hoje em 2023 ele tem isso como objetivo. </p>    
+                            
+                        <button type="button" class="btn btn-success">Saiba mais</button> <!-- botao literalmente copiado do bootstrap-->
+                    </div>
+                </div>
+            </div>
+    
+        </section class="mt-5">    
+
+            <div class="section">
+                <div class="container">
+                    <div class="row mt-5">
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <img src="camisa jesus legal.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo nesciunt dolorum ab maxime fugiat perspiciatis, laboriosam amet vel consequuntur aspernatur. Qui sit culpa dolorum quae dolores incidunt cupiditate, ex laudantium?</p>
+                                </div>
+                            </div>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+               
+                   
+                 
+  
+
+
+    <!-- Daqui em diante é basicamente copiar a estrutura e montar as seções da Landing page-->
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    
+</body>
+</html>
